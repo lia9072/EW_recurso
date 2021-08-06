@@ -1,0 +1,148 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: rgb(213, 230, 224);
+}
+
+#marco {
+	
+	box-sizing: border-box;
+	text-align: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	
+}
+#marco  header img{
+	width: 90%;
+	height: 550px;
+	padding: 10px;
+	border: 2px solid rgb(12, 121, 115);
+	margin-bottom: 20px;
+}
+
+#Titulo{
+	text-align:center; 
+	font-family: sans-serif;
+	font-size: 3rem;
+	margin-top: 20px;
+	color:rgb(15, 122, 113);
+}
+
+#baner {
+	width:100%; 
+	height:320px; 
+}
+
+
+.contproducto{	
+	width: 100%;
+	height: 800px;
+	background-color: aliceblue;
+	
+	margin-top: 50px;
+}
+.contproducto .card{
+	display: flex;
+	justify-content: space-evenly;
+}
+.contproducto  .card .di{
+	display: grid;
+	margin-top: 50px;
+
+}
+.contproducto img{
+	height: 250px;
+	width: 350px;
+	margin-bottom: 20px;
+	
+}
+.contproducto  .card .di button{
+	border: none;
+	height: 40px;
+	background-color: rgb(179, 240, 214);
+}
+header center a{
+	text-decoration: none;
+	border: 1px solid rgb(12, 121, 115);
+	border-radius: 100%;
+	padding: 5px 10px;
+	margin: 0 10px;
+	color: #000;
+	background-color: rgba(53, 209, 155, 0.479);
+}
+header center a:hover{
+	background-color: rgba(132, 241, 203, 0.425);
+}
+.botonprod{
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+
+}
+
+.form{
+	height: 300px;
+	width: 100%;
+	margin-top: -20px;
+	background-color: rgb(255, 220, 220);
+}
+h2{padding-top: 40px; font-family: sans-serif;}
+.form input, .form button{
+	height: 40px;
+	width: 450px;
+	margin: 10px;
+
+	border: none;
+	border-bottom: 2px solid #000;
+}
+.form button{
+	border-bottom: none;
+	background-color: aqua;
+}
+#oferta {
+	margin-top: 30px;
+	width:100%; 
+	height:260px; 
+}
+
+nav {
+	width:100%; 
+	margin-top:10px; 
+	height:40px; 
+	float:left;
+}
+
+
+section {
+	width:100%; 
+	margin-top:10px; 
+	height:auto; 
+	float:left;
+}
+
+
+.redes{
+	text-decoration: none;
+}
+
+
+.borde{
+	border: solid 4px rgb(116, 247, 207);
+	border-radius: 25%;
+}
+
+.linkgr{
+	width: 80px;
+}
+.linksm{
+	width: 50px;
+}
+
+
+/* si el input esta vacio */
+
+.error{
+	border: none;
+	border-bottom: 2px solid rgb(255, 5, 5);
+}
